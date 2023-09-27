@@ -8,18 +8,18 @@ def envoyer_message_discord(webhook_url, message):
     }
     response = requests.post(webhook_url, json=data)
     if response.status_code == 204:
-        print("Message envoyé avec succès sur Discord")
+        print("succes check discord!")
     else:
-        print("Échec de l'envoi du message sur Discord")
+        print("not succes not check")
 
 # Fonction principale
 def main():
     # Demander à l'utilisateur de saisir son webhook Discord
-    webhook_url = input("Veuillez entrer votre webhook Discord : ")
+    webhook_url = input("enter you webhook: ")
 
     # Envoyer le message de spam
     while True:
-        message = "IS WORK WITH PYTHON join the server for more https://discord.gg/HuATM8aYAt"
+        message = "d̵͇̫̪̒̈́͝i̸̼͖͔̓̕͝s̴̞͍͚͐̽̒c̵̪͎̽̔̽͜o̵̙͚͕͌͊h̴͍͕͒̐͜͝ä̴͖͎̺́̒c̵̡͉̙͒̈́̀k̵͇͉͕͛͠ https://discord.gg/sDUFGzpbmR"
         envoyer_message_discord(webhook_url, message)
         time.sleep(0)  # Attendre 1 seconde entre chaque envoi
 
