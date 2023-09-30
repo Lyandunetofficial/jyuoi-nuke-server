@@ -1,2 +1,2 @@
-join the server https://discord.gg/HuATM8aYAt
+join the server https://discord.gg/sDUFGzpbmR
 open builder.bat
